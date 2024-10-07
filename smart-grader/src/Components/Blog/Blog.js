@@ -1,8 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
 import Navbar from "../Navbar/Navbar";
 import "./Blog.css";
 import posts from "./Posts";
+
+import blogImage1 from "../../Images/blog-page-1.png";
 
 import { IoIosVideocam } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa6";
@@ -24,15 +27,28 @@ const Blog = () => {
           <div className="row">
             {posts.map((post, index) => (
               <div className="col-md-6" key={index}>
-                <div className="card">
-                  <div className="card-body">
-                    <h6 className="card-subtitle">
-                      <IoIosVideocam /> Tutorial {post.date}
-                    </h6>
-                    <h5 className="card-title">{post.title}</h5>
-                    <p className="card-text">{post.description}</p>
-                    <img src={post.image} className="" alt={post.title} />
-                    <p>{post.author}</p>
+                <div className="blog-card">
+                  <h6>
+                    <span className="d-flex justify-content-between align-items-center">
+                      <span>
+                        <span className="icon">
+                          <IoIosVideocam />
+                        </span>
+                        <span className="sub-title">Tutorial </span>
+                      </span>
+                      <span className="date"> {post.date}</span>
+                    </span>
+                  </h6>
+                  <h2>{post.title}</h2>
+                  <p>{post.description}</p>
+                  <div className="d-flex justify-content-between align-items-center card-footer">
+                    <div className="d-flex">
+                      <div className="img-container">
+                        <img src={blogImage1} alt="SmartGrader Team" />
+                      </div>
+
+                      <p>SmartGrader Team</p>
+                    </div>
                     <Link href={post.link}>
                       Read more <FaArrowRight />
                     </Link>

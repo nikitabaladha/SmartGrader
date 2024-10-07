@@ -5,11 +5,15 @@
   --font-size-md: 1.25rem;
   --font-size-lg: 1.5rem;
   --font-size-xl: 2.25rem;
+  --font-size-2rem: 2rem;
+  --font-size-xxl: 45px;
+  --font-size-xs: 14px;
 
   /* Font Weights */
   --font-weight-small: 300;
   --font-weight-normal: 400;
   --font-weight-medium: 500;
+  --font-weight-semibold: 600;
   --font-weight-bold: 700;
   --font-weight-extra-bold: 800;
 
@@ -19,6 +23,8 @@
   --line-height-md: 1.75rem;
   --line-height-lg: 2rem;
   --line-height-xl: 2.5rem;
+  --line-height-tight: 1;
+  --line-height-custom: 24px;
 
   /* Colors */
   --color-text-primary: rgb(17, 24, 39);
@@ -40,4 +46,6 @@
 
   /* card margin */
   --margin-bottom: 25px;
+
+  --margin-top-15px: 15px;
 }

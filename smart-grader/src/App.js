@@ -4,6 +4,7 @@ import "./global.css";
 
 import Home from "./Components/Home/Home";
 import Blog from "./Components/Blog/Blog";
+import FullBlog from "./Components/FullBlog/FullBlog";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:postId" element={<FullBlog />} />
         </Routes>
       </div>
     </Router>

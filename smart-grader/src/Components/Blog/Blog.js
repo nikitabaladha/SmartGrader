@@ -1,14 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import Navbar from "../Navbar/Navbar";
 import "./Blog.css";
 import posts from "./Posts";
-
 import blogImage1 from "../../Images/blog-page-1.png";
-
 import { IoIosVideocam } from "react-icons/io";
 import { FaArrowRight } from "react-icons/fa6";
+
+const truncateDescription = (html) => {
+  const tempElement = document.createElement("div");
+  tempElement.innerHTML = html;
+  const textContent = tempElement.textContent || tempElement.innerText;
+  const lines = textContent.split("\n");
+  return lines.slice(0, 5).join("\n");
+};
 
 const Blog = () => {
   return (
@@ -29,7 +34,7 @@ const Blog = () => {
               <div className="col-md-6" key={index}>
                 <div className="blog-card">
                   <h6>
-                    <span className="d-flex justify-content-between align-items-center">
+                    <span className="d-flex justify-content-between align-items-center mb-3">
                       <span>
                         <span className="icon">
                           <IoIosVideocam />
@@ -40,7 +45,7 @@ const Blog = () => {
                     </span>
                   </h6>
                   <h2>{post.title}</h2>
-                  <p>{post.description}</p>
+                  <p>{truncateDescription(post.description)}</p>
                   <div className="d-flex justify-content-between align-items-center card-footer">
                     <div className="d-flex">
                       <div className="img-container">
@@ -49,7 +54,7 @@ const Blog = () => {
 
                       <p>SmartGrader Team</p>
                     </div>
-                    <Link href={post.link}>
+                    <Link to={`/blog/${index}`}>
                       Read more <FaArrowRight />
                     </Link>
                   </div>

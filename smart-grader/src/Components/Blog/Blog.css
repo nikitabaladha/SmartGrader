@@ -56,7 +56,6 @@
 
 .blog-card h2 {
   margin-top: var(--spacing-small);
-  margin-bottom: var(--spacing-medium);
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-lg);
   line-height: var(--line-height-lg);

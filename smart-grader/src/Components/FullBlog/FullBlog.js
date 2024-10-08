@@ -4,6 +4,7 @@ import { GoDash } from "react-icons/go";
 import DOMPurify from "dompurify";
 
 import posts from "../Blog/Posts";
+import Navbar from "../Navbar/Navbar";
 import "./FullBlog.css";
 
 const FullBlog = () => {
@@ -25,46 +26,51 @@ const FullBlog = () => {
   const recentPosts = posts.filter((_, index) => index !== parseInt(postId));
 
   return (
-    <div className="container-fluid fullBlog-second">
-      <div className="row">
-        {/* Main blog content section */}
-        <div className="col-md-8 fullBlog">
-          <div className="fullBlogTitle">
-            <h3>{post.title}</h3>
-            <p>
-              <span>{post.date}</span> <GoDash /> | <span>BLOG</span>
-            </p>
-            {/* Displaying the main blog image */}
-            <div className="img-container">
-              <img src={post.image} alt="blog" />
+    <>
+      {/* Rendering the Navbar component */}
+      <Navbar />
+
+      <div className="container-fluid fullBlog-second">
+        <div className="row">
+          {/* Main blog content section */}
+          <div className="col-md-8 fullBlog">
+            <div className="fullBlogTitle">
+              <h3>{post.title}</h3>
+              <p>
+                <span>{post.date}</span> <GoDash /> | <span>BLOG</span>
+              </p>
+              {/* Displaying the main blog image */}
+              <div className="img-container">
+                <img src={post.image} alt="blog" />
+              </div>
             </div>
+
+            {/* Rendering the sanitized blog description */}
+            <div
+              className="fullBlogDescription"
+              dangerouslySetInnerHTML={{ __html: sanitizedDescription }}
+            />
           </div>
 
-          {/* Rendering the sanitized blog description */}
-          <div
-            className="fullBlogDescription"
-            dangerouslySetInnerHTML={{ __html: sanitizedDescription }}
-          />
-        </div>
-
-        {/* Recent posts section */}
-        <div className="col-md-4 fullBlog-right">
-          <h3>Recent Posts</h3>
-          {recentPosts.length > 0 ? (
-            // Mapping over the recent posts to display them
-            recentPosts.map((recentPost, index) => (
-              <div key={index} className="recent-post">
-                <img src={recentPost.image} alt="recent-blog" />
-                <h4>{recentPost.title}</h4>
-              </div>
-            ))
-          ) : (
-            // Message displayed if no recent posts are available
-            <p>No recent posts available.</p>
-          )}
+          {/* Recent posts section */}
+          <div className="col-md-4 fullBlog-right">
+            <h3>Recent Posts</h3>
+            {recentPosts.length > 0 ? (
+              // Mapping over the recent posts to display them
+              recentPosts.map((recentPost, index) => (
+                <div key={index} className="recent-post">
+                  <img src={recentPost.image} alt="recent-blog" />
+                  <h4>{recentPost.title}</h4>
+                </div>
+              ))
+            ) : (
+              // Message displayed if no recent posts are available
+              <p>No recent posts available.</p>
+            )}
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

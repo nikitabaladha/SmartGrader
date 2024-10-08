@@ -1,1 +1,79 @@
+/* General Navbar styling */
+.navbar-container {
+  font-family: var(--font-family);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
+.navbar {
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 5px;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(107, 114, 128);
+  background-color: #fff;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(1 175 244);
+}
+
+.navbar-nav .login-btn,
+.navbar-nav .signup-btn {
+  color: #343a40;
+  margin-right: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+}
+
+.navbar-nav .login-btn:hover {
+  border-color: #343a40;
+}
+
+.navbar-nav .signup-btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #fff;
+}
+
+.navbar-nav .signup-btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.navbar-nav .buttons-container {
+  display: flex;
+  align-items: center;
+}

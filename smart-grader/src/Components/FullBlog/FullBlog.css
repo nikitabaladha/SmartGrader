@@ -4,6 +4,7 @@
   padding-left: 180px !important;
   padding-right: 180px !important;
   font-family: var(--font-family);
+  margin-top: 180px;
 }
 
 .row .fullBlog {

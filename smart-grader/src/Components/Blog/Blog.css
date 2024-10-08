@@ -4,6 +4,7 @@
   font-family: var(--font-family);
   text-align: center;
   max-width: 640px;
+  padding-top: 180px;
 }
 
 .blog-page-first h2 {

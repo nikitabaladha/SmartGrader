@@ -1,6 +1,7 @@
 import demoBlogImage from "../../Images/demo-blog-1.jpg";
 
 const posts = [
+  // first
   {
     date: "2024-06-18",
     title: "Want to ace your exams? Here’s the secret!",
@@ -8,7 +9,7 @@ const posts = [
     description: `
         <section>
           <h2>IIT Academy – “Let’s Crack It!”</h2>
-          <blockquote>“Hard work beats talent when talent doesn’t work hard”</blockquote>
+          <blockquote> <strong>“Hard work beats talent when talent doesn’t work hard” </strong></blockquote>
           <p>As a student, you know how crucial exams like JEE and NEET are for your future. They open doors to numerous opportunities. Have you ever wondered why some students do so well in these exams while others struggle? The answer lies in three key areas:</p>
           <ul>
             <li>Smart preparation</li>
@@ -18,41 +19,42 @@ const posts = [
         </section>
         <section>
           <h2>Start Early: Don’t Wait for the Last Minute</h2>
-          <p>Starting your preparation early is essential. It keeps you ahead, builds your confidence, and reduces stress. Imagine having an entire year to learn and practice instead of just a few months. Begin early, and you’ll be amazed at how much you can achieve! Join IIT Academy for a great experience. Let’s crack it!</p>
+          <p>Starting your preparation early is essential. It keeps you ahead, builds your confidence, and reduces stress. Imagine having an entire year to learn and practice instead of just a few months. Begin early, and you’ll be amazed at how much you can achieve! Join <strong>IIT Academy </strong> for a great experience. Let’s crack it!</p>
         </section>
         <section>
           <h2>Set Goals: Break Them Down into Smaller Targets</h2>
-          <p>Setting goals is vital, but breaking them down into smaller, achievable targets is equally important. This keeps you focused, motivated, and helps you track your progress. For example, if you want to master a subject, divide it into smaller topics and tackle each one step by step. At IIT Academy, our teachers are always here to guide you through this process.</p>
+          <p>Setting goals is vital, but breaking them down into smaller, achievable targets is equally important. This keeps you focused, motivated, and helps you track your progress. For example, if you want to master a subject, divide it into smaller topics and tackle each one step by step. At <strong> IIT Academy </strong>, our teachers are always here to guide you through this process.</p>
         </section>
         <section>
           <h2>Practice Consistently: Build Confidence and Strength</h2>
-          <p>Regular practice is key to success. It builds confidence, helps you improve weak areas, and develops problem-solving skills. Try to practice a little every day. You’ll be surprised at how much you can improve!</p>
+          <p>Regular practice is key to success. It builds confidence, helps you improve weak areas, and develops problem-solving skills. Try to practice a little every day. You’ll be surprised at how much you can improve! <strong>IIT Academy </strong>provides regular mock tests and quizzes to keep you on track.</p>
         </section>
         <section>
           <h2>Analyze and Improve: Review and Refine Your Strategy</h2>
-          <p>Reviewing your performance is crucial. It helps you identify areas for improvement, adjust your strategy, and stay on course. Don’t be afraid to ask for help, seek feedback, and learn from your mistakes.</p>
+          <p>Reviewing your performance is crucial. It helps you identify areas for improvement, adjust your strategy, and stay on course. Don’t be afraid to ask for help, seek feedback, and learn from your mistakes. <strong>IIT Academy </strong>teachers are always available to assist you.</p>
         </section>     
         <section> 
             <h2>Stay Positive: Believe in Yourself and Stay Motivated</h2>
             <p>Believing in yourself is half the battle! Stay positive, even when faced with challenges. Remind yourself of your strengths, celebrate your achievements, and keep moving forward.</p>
             <p>Success in exams requires a mix of hard work, smart work, and the right mindset. By following these tips, you’ll be well on your way to excelling in your exams!</p>
-            <p>At IIT Academy, we are dedicated to helping students unlock their potential. Our expert faculty, comprehensive curriculum, and supportive environment are designed to help you succeed. Stay tuned for more tips, guidance, and resources to help you achieve your goals!</p>
+            <p>At <strong> IIT Academy </strong>, we are dedicated to helping students unlock their potential. Our expert faculty, comprehensive curriculum, and supportive environment are designed to help you succeed. Stay tuned for more tips, guidance, and resources to help you achieve your goals!</p>
         </section>
         `,
     link: "/blog/ace-your-exams",
   },
+
+  // second
   {
     date: "2024-06-20",
     title: "Unlock the Secrets of JEE Mains and Advanced!",
     image: demoBlogImage,
     description: `
     <section>
-        <h2>Unlock the Secrets of JEE Mains and Advanced!</h2>
-        <p>
+      <p>
           Are you dreaming of cracking the prestigious JEE exams? Want to know
           the difference between JEE Mains and Advanced? Let’s clear up any
           confusion and get you started on the path to success!
-        </p>
+      </p>
     </section>
 
     <section>
@@ -79,19 +81,10 @@ const posts = [
     </section>
 
     <section>
-        <h2>JEE Mains is the first step:</h2>
-        <p>
-          It’s the first exam you need to pass to qualify for JEE Advanced.
-          Doing well in JEE Mains is crucial.
-        </p>
-    </section>
-
-    <section>
-        <h2>JEE Advanced is tougher:</h2>
-        <p>
-          This exam is more challenging and competitive than JEE Mains. Be ready
-          for harder questions and a more intense experience.
-        </p>
+    <ul>
+    <li><strong>JEE Mains is the first step :</strong>It’s the first exam you need to pass to qualify for JEE Advanced. Doing well in JEE Mains is crucial.</li>
+    <li><strong>JEE Advanced is tougher :</strong>This exam is more challenging and competitive than JEE Mains. Be ready for harder questions and a more intense experience.</li>
+    </ul>
     </section>
 
     <section>
@@ -146,13 +139,552 @@ const posts = [
           </li>
         </ul>
 
-        <p>
-          By following these tips, you’ll be well-prepared to tackle JEE Mains
-          and Advanced with confidence! Stay tuned for more tips and guidance
-          from IIT Academy!
-        </p>
-    </section> `,
+    </section>
+    
+    <section> 
+    <p> By following these tips, you’ll be well-prepared to tackle JEE Mains and Advanced with confidence! </p>
+    <p>Stay tuned for more tips and guidance from IIT Academy!</p>
+    </section>`,
     link: "/blog/unlock-jee-secrets",
+  },
+
+  //   Third
+  {
+    date: "2024-06-25",
+    title: "Unlock Your Potential: 10 Essential Skills for JEE Main Success!",
+    image: demoBlogImage,
+    description: `
+    <section>
+        <p>
+          Are you getting ready for JEE Main 2024? Want to know the key skills that can help you succeed? Here are the top 10 skills every JEE Main aspirant should master!
+        </p>
+    </section>
+
+    <section>
+    <ul>
+    <li> 
+    <strong>1. Time Management:</strong>
+    <p>Learn to manage your time wisely for each question and section. Develop a strategy to divide your time effectively, ensuring you attempt all questions and avoid last-minute rushes. At IIT Academy, our expert faculty will guide you through this, and regular mock tests will prepare you for the final exam.
+    </p>
+    </li> 
+
+    <li> 
+    <strong>2. Problem-Solving Strategies:</strong>
+    <p> Develop a systematic approach to tackle complex problems. Learn to identify patterns, analyze data, and apply concepts to solve problems efficiently. At IIT Academy, we prepare you from the basics, making sure you are ready to ace the exam.
+    </p>
+    </li> 
+
+    <li> 
+    <strong>3. Clarity of Concepts:</strong>
+    <p> Build a strong foundation in fundamentals and basics. Make sure you understand each concept thoroughly and review them regularly to reinforce your learning. At IIT Academy, our expert faculty will help clear your basics, and our doubt-clearing sessions will address all your questions.
+    </p>
+    </li> 
+
+    <li> 
+    <strong>4. Calculation Speed:</strong>
+    <p> Improve your calculation speed and accuracy. Practice mental math, use shortcuts, and develop a strong foundation in mathematics to solve problems quickly.
+    </p>
+    </li> 
+
+    <li> 
+    <strong>5. Analytical Thinking:</strong>
+    <p> Develop critical thinking and problem-solving skills. Learn to analyze data, identify patterns, and apply logic to solve complex problems. At IIT Academy, we prepare you to think critically and solve effectively.
+    </p>
+    </li> 
+
+    <li> 
+    <strong>6. Revision:</strong>
+    <p> Master effective revision strategies to retain information. Use flashcards, mind maps, and other techniques to review and reinforce your learning. At IIT Academy, we provide regular mock tests and quizzes after each chapter for thorough revision.
+    </p>
+    </li> 
+
+    <li> 
+    <strong>7. Regular Mock Tests:</strong>
+    <p> Practice mock tests to simulate the actual exam experience. Learn to manage time, attempt questions, and analyze your performance to improve. We conduct regular mock tests and our faculty will help identify and correct your mistakes.
+    </p>
+    </li> 
+
+    <li> 
+    <strong>8. Mistake Evaluation:</strong>
+    <p> Identify and learn from your mistakes. Analyze your errors, understand the concepts, and practice similar questions to avoid repeating mistakes. That’s why we conduct regular doubt-clearing sessions.
+    </p>
+    </li> 
+
+    <li> 
+    <strong>9. Subject Balance::</strong>
+    <p>Balance your preparation across all subjects. Ensure you allocate time and resources evenly to avoid weaknesses in any subject. We also offer counseling sessions to guide you through this.
+    </p>
+    </li> 
+
+    <li> 
+    <strong>10. Positive Attitude:</strong>
+    <p> Cultivate a positive attitude and stay motivated. Believe in yourself, set goals, and celebrate small victories to stay focused and motivated.
+    </p>
+    </li> 
+
+    </ul> 
+  </section>
+  
+  <section>
+        <p>
+          By mastering these 10 skills, you’ll be well-equipped to tackle JEE Main 2024 with confidence! Stay focused, stay motivated, and get ready to achieve your dreams! 
+        </p>
+        <p>Join IIT Academy for great success!</p>
+    </section>
+    `,
+    link: "/blog/essential-skills-jee-main-success",
+  },
+
+  //   Fourth
+  {
+    date: "2024-06-20",
+    title: "Effective Time Management Tips for JEE and NEET Aspirants",
+    image: demoBlogImage,
+    description: `
+        <section>
+          <blockquote> <strong>“Time is a gift, use it wisely.”</strong></blockquote>
+          <p>At IIT Academy, we understand the importance of time management for JEE and NEET aspirants. With a strategic approach, you can optimize your study schedule and achieve your goals. Let’s dive into the essential tips!</p>
+        </section>
+
+        <section>
+        <ul>
+        <li>
+        <strong>1. Set Clear Goals :</strong>
+        <p>Establish specific, measurable, and achievable goals for each study session. Break down your long-term goals into smaller, manageable tasks.
+        </p>
+        </li>
+       
+        <li>
+        <strong>2. Create a Study Schedule :</strong>
+        <p>Plan out your day, week, and month. Allocate time for studying, revision, practice, and relaxation. Be flexible and adjust your schedule as needed.</p>
+        </li>
+       
+        <li>
+        <strong>3. Prioritize Tasks :</strong>
+        <p>Identify the most critical topics and tasks. Focus on high-priority subjects and questions, and allocate time accordingly.
+        </p>
+        </li>
+     
+        <li>
+        <strong> 4. Use Time-Blocking :</strong>
+        <p>Divide your study sessions into focused blocks (e.g., 90 minutes) followed by short breaks. This technique helps maintain concentration and productivity.
+        </p>
+        </li>
+      
+        <li>
+        <strong>5. Avoid Procrastination :</strong>
+        <p>Tackle challenging topics first, and avoid delaying tasks. Use the Pomodoro Technique: work for 25 minutes, take a 5-minute break, and repeat.</p>
+        </li>
+
+        <li>
+        <strong>6. Take Breaks :</strong>
+        <p>Regular breaks help recharge your mind. Use breaks to relax, exercise, or engage in hobbies.</p>
+        </li>
+       
+        <li>
+        <strong>7. Review and Revise :  </strong>
+        <p>Allocate time for reviewing and revising previously studied material. Reinforce your understanding and retain information better.</p>
+        </li>
+        
+        <li>
+        <strong>8. Practice Consistently :</strong>
+        <p>Regular practice helps build confidence and problem-solving skills. Set aside time for practice tests, quizzes, and mock exams.</p>
+        </li>
+        
+      <li>
+      <strong>9. Seek Help When Needed :</strong>
+      <p>Don’t hesitate to ask for help from teachers, mentors, or peers. Clarify doubts and overcome obstacles.</p>
+      </li>
+       
+      <li> 
+      <strong>10. Stay Organized </strong>
+      <p>Keep your study materials, notes, and schedule organized. Use tools like planners, apps, or to-do lists to stay on track.</p>
+      </li>
+    </ul>
+    </section>
+
+    <section>
+      <p>By implementing these effective time management tips, you’ll be able to optimize your study schedule and achieve success in JEE and NEET exams. Remember, time management is a skill that takes practice, so be patient and persistent. At IIT Academy, we are committed to helping you achieve your goals. Stay focused, stay motivated, and let’s crack your exams together!</p>
+    </section>
+        `,
+    link: "/blog/effective-time-management-tips",
+  },
+
+  // Fifth
+  {
+    date: "2024-06-22",
+    title: "Unlock Your Dreams: Medical Colleges Entrance Exams",
+    image: demoBlogImage,
+    description: `
+    <section>
+      <blockquote> <strong>“The future belongs to those who believe in the beauty of their dreams.”</strong> – Eleanor Roosevelt</blockquote>
+      <p>Are you aspiring to secure a seat in a top medical college? Look no further! IIT Academy is here to guide you through the journey of cracking medical colleges entrance exams. Our expert faculty, comprehensive curriculum, and proven track record make us the perfect partner for your success.</p>
+    </section>
+    
+    <section>
+      <h2>Understanding the Exam Pattern</h2>
+      <p>At IIT Academy, we understand the importance of familiarizing ourselves with the exam pattern. Our students are trained to tackle the exam with confidence, knowing the format, marking scheme, and question types. We provide in-depth analysis and strategies to help our students excel in each section.</p>
+    </section>
+    
+    <section>
+      <h2>Quality Resources</h2>
+      <p>We provide our students with authentic study materials, online resources, and mock tests to ensure they are well-prepared. Our resources are designed to help students develop a deep understanding of the subjects and build their problem-solving skills. Our study materials are regularly updated to reflect the latest trends and patterns in the exams.</p>
+    </section>
+    
+    <section>
+      <h2>Expert Guidance</h2>
+      <p>Our experienced teachers and mentors are dedicated to providing personalized feedback and guidance. We believe in nurturing our students’ potential and helping them overcome their weaknesses. Our faculty members are experts in their respective subjects and have years of experience in teaching and mentoring students for medical entrance exams.</p>
+    </section>
+    
+    <section>
+      <h2>Practice and Perseverance</h2>
+      <p>Practice makes perfect! At IIT Academy, we emphasize the importance of consistent practice and perseverance. Our students are encouraged to attempt mock tests, practice papers, and online quizzes to assess their knowledge and improve their skills. We provide a simulated exam environment to help our students get familiar with the exam pressure and time management.</p>
+    </section>
+    
+    <section>
+      <h2>Stay Motivated</h2>
+      <p>We believe in fostering a supportive environment that motivates our students to stay focused and driven. Our students are encouraged to celebrate their small victories and learn from their setbacks. We organize regular motivational sessions, workshops, and seminars to help our students stay motivated and inspired throughout their preparation journey.</p>
+    </section>
+    
+    <section>
+      <h2>Additional Support</h2>
+      <p>At IIT Academy, we understand that every student has unique needs and requirements. We provide additional support to our students, including:</p>
+       <ul>
+            <li>Doubt clearing sessions</li>
+            <li>Personalized mentoring</li>
+            <li>Study groups</li>
+            <li>Online support</li>
+      </ul>
+    </section>
+
+    <section>
+    <p>Join <strong>IIT Academy </strong>today and unlock your dreams of securing a seat in a top medical college. Our promise is to provide you with the best resources, expert guidance, and a supportive environment to help you succeed. Let’s crack medical colleges entrance exams together!</p>
+
+    <p>Don’t just dream, achieve! With <strong>IIT Academy </strong>, you can make your dreams a reality. Join us and start your journey to success today!”!</p>
+    </section>`,
+    link: "/blog/medical-colleges-entrance-exams",
+  },
+
+  // Sixth
+  {
+    date: "2024-06-22",
+    title: "Crack NEET UG 2024: A Comprehensive Guide to Acing Your Mock Tests",
+    image: demoBlogImage,
+    description: `
+    <section> 
+      <blockquote> <strong>“Champions are made from something they have deep inside them – a desire, a dream, a vision.” </strong> – Muhammad Ali</blockquote>
+      <p>Aspirants, are you ready to unleash your inner champion and crack NEET UG 2024? At <strong>IIT Academy </strong>, we understand the importance of mock tests in your preparation journey. Let’s dive into the essential tips and strategies to help you ace your mock tests and NEET UG 2024!</p>
+    </section>
+    
+    <section>
+    <ul>
+        <li>
+        <strong>Understanding the Exam Pattern :</strong> Familiarize yourself with the exam format, marking scheme, and question types. This knowledge will help you prepare effectively and avoid last-minute surprises.
+        </li>
+
+        <li>
+        <strong>Set Clear Goals :</strong> Define your targets and goals for each mock test. Identify areas for improvement and work on them.
+        </li>
+
+        <li>
+        <strong>Practice with Quality Resources :</strong> Utilize authentic study materials, such as textbooks, online resources, and mock tests. Practice consistently and analyze your performance to improve.
+        </li>
+
+        <li>
+        <strong>Develop a Test-Taking Strategy :</strong> Learn time management techniques, question-solving strategies, and stress management methods. Our expert faculty at IIT Academy will guide you through these techniques.
+        </li>
+
+        <li>
+        <strong>Analyze and Improve :</strong> Review your performance in each mock test, identify weak areas, and work on improving them.
+        </li>
+
+        <li>
+        <strong>Stay Motivated :</strong> Celebrate your progress, no matter how small, and stay motivated. Remember, every step forward is a success!
+        </li>
+
+        <li>
+        <strong>Seek Feedback :</strong> Ask for feedback from teachers, mentors, or peers. Use this feedback to refine your strategy and improve performance.
+        </li>
+    </ul>
+    </section> 
+
+    <section>
+     <p>By following these tips and staying committed, you’ll be well-prepared to ace your mock tests and NEET UG 2024. At<strong> IIT Academy </strong>, we believe in your potential and are dedicated to helping you achieve your dreams. Stay focused, stay motivated, and let’s crack NEET UG 2024 together!</p>
+    <section/>`,
+    link: "/blog/crack-neet-ug",
+  },
+
+  // Seventh
+  {
+    date: "2024-06-20",
+    title:
+      "Unlocking the Secrets of GTSE: Why it’s a Game-Changer for Class 6th and 8th Students in NEET Preparation",
+    image: demoBlogImage,
+    description: `
+        <section>
+          <blockquote><strong>“Believe in yourself, take the leap of faith and watch the universe conspire to make your dreams a reality.”</strong></blockquote>
+          <p>At IIT Academy, we understand the significance of a strong foundation in science and technology for aspiring NEET candidates. The Grand Talent Search Examination (GTSE) is a crucial stepping stone for Class 6th and 8th students, paving the way for future success in NEET and beyond.</p>
+        </section>
+
+        <section>
+         <p>Let’s delve into the importance of GTSE for Class 6th and 8th students in NEET preparation:</p>
+        </section>
+
+        <section>
+        <ul>
+
+        <li>
+        <strong>1. <sup>&#9733;</sup> Early Exposure to Competitive Exams <sup>&#9733;</sup> :</strong>
+        <p>GTSE familiarizes students with the competitive exam format, helping them develop essential skills like time management, problem-solving, and critical thinking.
+        </p>
+        </li>
+
+        <li>
+        <strong>2. <sup>&#9733;</sup> Science and Technology Foundation <sup>&#9733;</sup> :</strong>
+        <p>GTSE focuses on science and technology, laying a solid foundation for future studies in these subjects. This exposure helps students develop a deeper understanding of fundamental concepts.
+        </p>
+        </li>
+
+        <li>
+        <strong>3. <sup>&#9733;</sup> Identifying Strengths and Weaknesses <sup>&#9733;</sup> :</strong>
+        <p>GTSE helps students identify their strengths and weaknesses, allowing them to focus on areas that require improvement. This self-assessment is vital for future academic success.
+        </p>
+        </li>
+
+        <li>
+        <strong>4.  <sup>&#9733;</sup> Developing Problem-Solving Skills  <sup>&#9733;</sup> :</strong>
+        <p>GTSE’s unique problem-solving approach enhances students’ critical thinking abilities, preparing them for the challenging questions in NEET and other competitive exams.
+        </p>
+        </li>
+
+        <li>
+        <strong>5. <sup>&#9733;</sup> Building Confidence <sup>&#9733;</sup> :</strong>
+        <p>GTSE’s encouraging environment helps students build confidence in their abilities, fostering a growth mindset that’s essential for overcoming future academic challenges.
+        </p>
+        </li>
+
+        <li>
+        <strong>6. <sup>&#9733;</sup> Preparation for Future Opportunities <sup>&#9733;</sup> :</strong>
+        <p>GTSE opens doors to various opportunities, including scholarships, internships, and mentorship programs. IIT Academy’s GTSE preparation ensures students are well-equipped to capitalize on these opportunities.
+        </p>
+        </li>
+       </ul>
+    </section>
+
+    <section>
+      <p>At IIT Academy, we recognize the significance of GTSE in shaping young minds. Our expert faculty and tailored curriculum ensure that students receive comprehensive guidance, empowering them to excel in GTSE and beyond. Join us in unlocking the secrets of GTSE and paving the way for a bright future in science and technology!</p>
+    </section>
+        `,
+    link: "/blog/effective-time-management-tips",
+  },
+
+  // Eighth
+  {
+    date: "2024-06-22",
+    title:
+      "Choosing the Right Resources for Medical Exam Preparation in Ranchi",
+    image: demoBlogImage,
+    description: `
+    <section> 
+      <blockquote><strong>“The right tools can make all the difference in getting the job done.” </strong>– Chris Hadfield</blockquote>
+      <p>Aspirants, are you preparing for medical exams in Ranchi? At IIT Academy, we understand the importance of selecting the right resources to aid your preparation. With so many options available, it can be overwhelming to choose the best ones. Let’s explore the essential resources and tips to help you succeed!</p>
+    </section>
+    
+    <section>
+    <ul>
+      <li>
+        <strong>Standard Textbooks :</strong> Stick to trusted and recommended textbooks for comprehensive coverage of subjects. These textbooks provide a solid foundation for your preparation.
+      </li>
+
+      <li>
+        <strong>Online Resources :</strong> Utilize authentic online platforms, like video lectures and study materials, to supplement your preparation. Online resources can provide additional support and clarity on complex topics.
+      </li>
+
+      <li>
+        <strong>Mock Tests and Practice Papers :</strong> Regularly attempt mock tests and practice papers to assess your knowledge and improve your skills. Mock tests help you simulate the exam experience and identify areas for improvement.
+      </li>
+
+        <li>
+        <strong>Expert Guidance :</strong> Seek guidance from experienced teachers and mentors at IIT Academy to clarify doubts and refine your strategy. Our experts provide personalized feedback and support to help you improve.
+        </li>
+
+        <li>
+        <strong>Study Groups :</strong> Join study groups to collaborate with peers, share knowledge, and stay motivated. Study groups can help you stay engaged and inspired throughout your preparation journey.
+        </li>
+
+        <li>
+        <strong>Mobile Apps :</strong> Leverage mobile apps for convenient access to study materials, notes, and practice questions. Mobile apps can help you stay organized and focused, even on-the-go.
+        </li>
+
+    </ul>
+    </section> 
+
+    <section>
+     <p>By selecting the right resources and staying committed, you’ll be well-prepared to crack medical exams in Ranchi. At IIT Academy, we believe in your potential and are dedicated to helping you achieve your dreams. Stay focused, stay motivated, and let’s achieve success together!</p>
+    <p>Remember, the right resources can make a significant difference in your preparation. Choose wisely, stay consistent, and you’ll be on your way to achieving your goals. Good luck!”</p>
+    <section/>`,
+    link: "/blog/medical-exam-preparations",
+  },
+
+  // Ninth
+  {
+    date: "2024-06-20",
+    title:
+      "Avoiding Common Mistakes in JEE Exam Preparation: A Guide to Success",
+    image: demoBlogImage,
+    description: `
+        <section>
+        <blockquote><strong>“Believe you can and you’re halfway there.”</strong> – Theodore Roosevelt</blockquote>
+        <p>At IIT Academy, we understand the importance of strategic preparation for the Joint Entrance Examination (JEE). With years of experience in mentoring students for JEE, we have identified common mistakes that students make during their preparation journey. In this article, we will share the top 10 mistakes to avoid in JEE exam preparation, helping you stay on the right track and achieve success.</p>
+        </section>
+
+        <section>
+        <ul>
+
+        <li>
+        <span> <strong> Mistake #1:</strong> Lack of Clear Goals </span>
+        <p>Setting clear goals is essential for effective preparation. At <strong>IIT Academy </strong>, we help our students set realistic goals and develop a tailored strategy to achieve them.
+        </p>
+        </li>
+
+        <li>
+        <span> <strong> Mistake #2:</strong> Inadequate Study Material </span>
+        <p>Using outdated or inadequate study material can hinder your progress. Our expert faculty at  <strong>IIT Academy </strong> curates comprehensive study materials, ensuring our students receive the best resources.
+        </p>
+        </li>
+
+        <li>
+        <span> <strong> Mistake #3:</strong> Poor Time Management </span>
+        <p>Effective time management is crucial for JEE preparation. We guide our students in creating a study schedule, prioritizing tasks, and avoiding procrastination.
+        </p>
+        </li>
+
+        <li>
+        <span> <strong> Mistake #4:</strong> Insufficient Practice </span>
+        <p>Practice is key to mastering concepts. <strong>IIT Academy </strong> provides ample opportunities for practice through mock tests, practice papers, and online quizzes.
+        </p>
+        </li>
+
+        <li>
+        <span> <strong> Mistake #5:</strong> Neglecting Weaknesses </span>
+        <p>Identifying and addressing weaknesses is vital. Our faculty members at <strong>IIT Academy </strong> work closely with students to pinpoint areas for improvement.
+        </p>
+        </li>
+
+        <li>
+        <span> <strong> Mistake #6:</strong> Inadequate Revision </span>
+        <p>Revision is crucial for retaining knowledge. We emphasize the importance of regular revision and provide strategies for effective recall.
+        </p>
+        </li>
+
+        <li>
+        <span> <strong> Mistake #7:</strong> Lack of Motivation </span>
+        <p>Staying motivated is essential for long-term preparation.<strong>IIT Academy </strong> fosters a supportive environment, organizing motivational sessions and workshops.
+        </p>
+        </li>
+
+        <li>
+        <span> <strong> Mistake #8:</strong> Ignoring Mock Tests </span>
+        <p>Mock tests simulate the exam experience, helping students assess their preparation. We conduct regular mock tests, providing feedback and areas for improvement.
+        </p>
+        </li>
+
+        <li>
+        <span> <strong> Mistake #9:</strong> Not Seeking Help </span>
+        <p>Don’t hesitate to seek help when needed. Our experienced faculty and mentors at <strong>IIT Academy </strong> are always available for guidance.
+        </p>
+        </li>
+
+        <li>
+        <span> <strong> Mistake #10:</strong> Burnout and Stress </span>
+        <p>Preparation shouldn’t come at the cost of well-being. We emphasize the importance of maintaining a healthy lifestyle, managing stress, and taking breaks.
+        </p>
+        </li>
+             
+    </ul>
+    </section>
+
+    <section>
+      <p>By avoiding these common mistakes and following our expert guidance, you’ll be well-prepared to crack the JEE exam. Join <strong>IIT Academy </strong> today and let’s achieve success together!</p>
+      <p>Don’t just dream, achieve! With <strong>IIT Academy </strong>, you can make your dreams a reality. Join us and start your journey to success today!</p>
+    </section>
+        `,
+    link: "/blog/effective-time-management-tips",
+  },
+
+  // Tenth
+  {
+    date: "2024-06-20",
+    title:
+      "Unlocking Success: Why IIT Academy is the Best IIT JEE Coaching in India",
+    image: demoBlogImage,
+    description: `
+        <section>
+          <p>At IIT Academy, we pride ourselves on being the premier institution for IIT JEE coaching in India. Our commitment to excellence, combined with our expertise and innovative approach, sets us apart from the rest.</p>
+        </section>
+
+        <section>
+         <p>Let’s dive into what makes IIT Academy the best IIT JEE coaching in India:</p>
+        </section>
+
+        <section>
+        <ul>
+
+        <li>
+        <strong>1. &#9733; Expert Faculty &#9733; :</strong>
+        <p>Our faculty consists of highly experienced and qualified professionals, many of whom are IIT alumni themselves. They provide personalized guidance, mentorship, and support to ensure students receive the best possible coaching.
+        </p>
+        </li>
+
+        <li>
+        <strong>2. &#9733; Comprehensive Curriculum  &#9733; :</strong>
+        <p>Our curriculum is meticulously designed to cover all aspects of the IIT JEE syllabus, including Physics, Chemistry, and Mathematics. We emphasize conceptual clarity, problem-solving skills, and critical thinking.
+        </p>
+        </li>
+
+        <li>
+        <strong>3. &#9733; Innovative Teaching Methods  &#9733; :</strong>
+        <p>We employ cutting-edge teaching techniques, such as interactive sessions, virtual labs, and multimedia resources, to make learning engaging and effective.
+        </p>
+        </li>
+
+        <li>
+        <strong>4. &#9733; Small Batch Sizes &#9733; :</strong>
+        <p>We maintain small batch sizes to ensure personalized attention and focused learning, allowing students to clarify doubts and receive feedback regularly.
+        </p>
+        </li>
+
+        <li>
+        <strong>5. &#9733; Regular Assessments &#9733; :</strong>
+        <p>Our regular assessments and mock tests simulate the actual IIT JEE exam experience, helping students evaluate their progress and identify areas for improvement.
+        </p>
+        </li>
+
+        <li>
+        <strong>6. &#9733; Doubt Clearing Sessions &#9733; :</strong>
+        <p>We conduct regular doubt clearing sessions, where students can clarify their doubts and receive guidance from our expert faculty.
+        </p>
+        </li>
+
+        <li>
+        <strong>7. &#9733; Study Materials &#9733; :</strong>
+        <p>Our comprehensive study materials, including notes, textbooks, and online resources, are designed to supplement classroom learning and provide additional support.
+        </p>
+        </li>
+
+        <li>
+        <strong>8. &#9733; Motivational Sessions &#9733; :</strong>
+        <p>Our motivational sessions, conducted by industry experts and IIT alumni, inspire and motivate students to stay focused and driven.
+        </p>
+        </li>
+       </ul>
+    </section>
+
+    <section>
+      <p>IIT Academy stands out as the premier institution for IIT JEE coaching in India, offering a comprehensive and innovative approach to prepare students for success. With our expert faculty, cutting-edge teaching methods, and personalized attention, we empower students to achieve their dreams and secure a bright future. At IIT Academy, we are committed to fostering a culture of excellence, and our results speak for themselves. Join us on this journey to success, and let’s unlock your potential together!</p>
+    </section>
+        `,
+    link: "/blog/best-iit-zee-coaching",
   },
 ];
 

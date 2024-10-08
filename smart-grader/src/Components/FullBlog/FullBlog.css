@@ -1,8 +1,8 @@
 /* Full Blog css */
 
 .fullBlog-second {
-  padding-left: 180px;
-  padding-right: 180px;
+  padding-left: 180px !important;
+  padding-right: 180px !important;
   font-family: var(--font-family);
 }
 

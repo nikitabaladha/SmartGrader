@@ -54,7 +54,7 @@ const Blog = () => {
                   <h2>{post.title}</h2>
                   <p>{truncateDescription(post.description)}</p>
 
-                  <div className="d-flex justify-content-between align-items-center card-footer">
+                  <div className="d-flex justify-content-between card-footer">
                     <div className="d-flex">
                       <div className="img-container">
                         <img src={blogImage1} alt="SmartGrader Team" />{" "}

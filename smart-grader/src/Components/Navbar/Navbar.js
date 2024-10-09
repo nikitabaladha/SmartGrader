@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { MdArrowOutward } from "react-icons/md";
 import { CgLogIn } from "react-icons/cg";
 import { FaUser } from "react-icons/fa";
+import { RxCross1 } from "react-icons/rx";
 
 import logo from "../../Images/smart-grader-logo.png";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
       <div className="navbar-container">
@@ -37,16 +44,22 @@ const Navbar = () => {
             <button
               className="navbar-toggler"
               type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
+              onClick={toggleNavbar}
               aria-controls="navbarNav"
-              aria-expanded="false"
+              aria-expanded={isOpen}
               aria-label="Toggle navigation"
             >
-              <span className="navbar-toggler-icon"></span>
+              {isOpen ? (
+                <RxCross1 className="close-icon" />
+              ) : (
+                <span className="navbar-toggler-icon"></span>
+              )}
             </button>
 
-            <div className="collapse navbar-collapse" id="navbarNav">
+            <div
+              className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+              id="navbarNav"
+            >
               {/* Nav links in the center */}
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">

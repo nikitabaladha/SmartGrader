@@ -12,11 +12,16 @@ const Navbar = () => {
   return (
     <>
       <div className="navbar-container">
-        <div>
-          <p>
-            <span>Welcome to Smart Grader!</span>
-            <span>info@smartgrader.in</span> <span>+91-8920964502</span>
-          </p>
+        <div className="row top-row">
+          <div className="col-md-6 right-content">
+            <p>Welcome to Smart Grader!</p>
+          </div>
+          <div className="col-md-6 left-content">
+            <p>
+              <span className="p-2">info@smartgrader.in</span>{" "}
+              <span>+91-8920964502</span>
+            </p>
+          </div>
         </div>
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
@@ -66,7 +71,7 @@ const Navbar = () => {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/blog">
-                    Blog <MdArrowOutward />
+                    Blog <MdArrowOutward className="arrow-icon" />
                   </Link>
                 </li>
               </ul>
@@ -74,11 +79,11 @@ const Navbar = () => {
               {/* Buttons on the right */}
               <div className="buttons-container">
                 <button type="button" className="login-btn">
-                  <CgLogIn />
+                  <CgLogIn className="icon" />
                   Login
                 </button>
                 <button type="button" className="signup-btn">
-                  <FaUser />
+                  <FaUser className="icon" />
                   Signup
                 </button>
               </div>

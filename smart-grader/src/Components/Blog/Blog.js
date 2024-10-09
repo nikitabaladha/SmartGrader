@@ -38,7 +38,7 @@ const Blog = () => {
             {posts.map((post, index) => (
               // Mapping through the posts to create a blog card for each post
               <div className="col-md-6" key={index}>
-                <div className="blog-card">
+                <div className="blog-card zoomIn">
                   {/* Blog card header with tutorial label and date */}
                   <h6>
                     <span className="d-flex justify-content-between align-items-center mb-3">

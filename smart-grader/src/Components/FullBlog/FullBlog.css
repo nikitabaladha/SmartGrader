@@ -16,7 +16,7 @@
   font-weight: var(--font-weight-semibold);
   font-size: var(--font-size-xxl);
   line-height: var(--line-height-tight);
-  color: var(--color-text-quaternary);
+  color: var(--color-text-primary);
   margin-bottom: 0.5rem;
 }
 
@@ -24,7 +24,7 @@
   font-weight: var(--font-weight-semibold);
   font-size: var(--font-size-xs);
   line-height: var(--line-height-custom);
-  color: var(--color-text-secondary);
+  color: var(--color-text-primary);
 }
 
 .fullBlogTitle .img-container {

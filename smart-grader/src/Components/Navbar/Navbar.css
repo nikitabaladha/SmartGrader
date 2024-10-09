@@ -1,4 +1,3 @@
-/* General Navbar styling */
 .navbar-container {
   font-family: var(--font-family);
   position: fixed;
@@ -6,12 +5,38 @@
   left: 0;
   width: 100%;
   z-index: 1000;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container .left-content {
+  display: flex;
+  justify-content: end;
 }
 
 .navbar {
   background-color: rgb(255, 255, 255);
-  padding: 1rem;
+  padding: 10px !important;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(1 175 244);
+  color: #fff;
+}
+
+.top-row p {
+  margin: 4px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+
+.navbar {
+  padding: 1rem 0;
+  box-shadow: none;
 }
 
 .navbar-brand img {
@@ -48,32 +73,56 @@
   color: rgb(1 175 244);
 }
 
-.navbar-nav .login-btn,
-.navbar-nav .signup-btn {
-  color: #343a40;
-  margin-right: 10px;
-  border-radius: 10px;
+.buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.buttons-container .login-btn,
+.buttons-container .signup-btn {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
   transition: all 0.3s ease-in-out;
   padding: 0.5rem 1rem;
   border: 1px solid transparent;
 }
 
-.navbar-nav .login-btn:hover {
-  border-color: #343a40;
+.buttons-container .login-btn {
+  margin-right: 20px;
 }
 
-.navbar-nav .signup-btn {
-  background-color: #007bff;
-  border-color: #007bff;
+.buttons-container .login-btn .icon,
+.buttons-container .signup-btn .icon {
+  margin-right: 8px;
+}
+
+.arrow-icon {
+  padding-left: 5px;
+  font-size: 25px;
+}
+
+.buttons-container .login-btn {
+  background-color: #fff;
+  border: 1px solid rgb(107, 114, 128);
+  color: rgb(107, 114, 128);
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.buttons-container .signup-btn {
+  background-color: rgb(1 175 244);
+  border-color: rgb(1 175 244);
   color: #fff;
+  transition: transform 0.3s ease-in-out;
 }
 
-.navbar-nav .signup-btn:hover {
+.buttons-container .login-btn:hover,
+.buttons-container .signup-btn:hover {
+  transform: scale(1.1);
+}
+
+.buttons-container .signup-btn:hover {
   background-color: #0056b3;
   border-color: #0056b3;
-}
-
-.navbar-nav .buttons-container {
-  display: flex;
-  align-items: center;
 }

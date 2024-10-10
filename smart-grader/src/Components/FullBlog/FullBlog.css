@@ -1,10 +1,14 @@
-/* Full Blog css */
+/* Full Blog second row */
 
 .fullBlog-second {
+  margin-top: 180px;
+}
+
+.fullBlog-second,
+.fullBlog-third {
   padding-left: 180px !important;
   padding-right: 180px !important;
   font-family: var(--font-family);
-  margin-top: 180px;
 }
 
 .row .fullBlog {
@@ -108,8 +112,50 @@
   cursor: pointer;
 }
 
+/* Full Blog Third Row */
+
+.fullBlog-third h3 {
+  font-size: var(--font-size-28px);
+  font-weight: var(--font-weight-bold);
+}
+
+.fullBlog-third h3,
+.fullBlog-third p {
+  margin-bottom: 0.5rem;
+  line-height: var(--line-height-medium);
+  text-align: center !important;
+  color: var(--color-text-primary);
+}
+
+.button-container .btn {
+  border-radius: 30px;
+  padding: 4px 10px !important;
+  position: relative;
+  font-size: var(--font-size-xs);
+  text-decoration: none;
+  outline: none;
+  line-height: var(--line-height-20px) !important;
+  background: linear-gradient(to right, #ef1c24, #1c0a7d 100%);
+  cursor: pointer;
+  color: var(--color-white);
+  margin: 5px;
+  display: inline-block;
+}
+
+.button-container .btn .icon {
+  padding-right: 5px;
+  font-size: var(--font-size-20px);
+}
+
+.fullBlog-third {
+  background: var(--color-background-dark);
+  padding: 20px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 767px) {
-  .fullBlog-second {
+  .fullBlog-second,
+  .fullBlog-third {
     padding-left: 20px !important;
     padding-right: 20px !important;
     margin-top: 200px;
@@ -139,7 +185,8 @@
 
 /* Tablet devices with a screen width between 768px and 1024px */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .fullBlog-second {
+  .fullBlog-second,
+  .fullBlog-third {
     padding-left: 20px !important;
     padding-right: 20px !important;
     margin-top: 200px;
